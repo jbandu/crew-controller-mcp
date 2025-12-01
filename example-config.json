@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "crew-controller": {
+      "command": "node",
+      "args": [
+        "/home/jbandu/workspace/crew-controller-mcp/dist/index.js"
+      ]
+    }
+  }
+}

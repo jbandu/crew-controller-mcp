@@ -1,0 +1,31 @@
+{
+  "name": "crew-controller-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for real-time crew operations and IRROPS recovery",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "crew-controller-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "aviation",
+    "crew-scheduling",
+    "irrops"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
